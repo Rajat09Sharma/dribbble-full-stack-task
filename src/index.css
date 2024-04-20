@@ -1,0 +1,211 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.barand-color {
+    color: #a38235;
+}
+
+.title-color {
+    color: #886418;
+}
+
+.logo-bg-color {
+    background-color: #f3d58c;
+}
+
+.span-color {
+    color: #493b9a;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.main-bg {
+    background-color: #ffffff;
+}
+
+.control {
+    margin-bottom: 1.75rem;
+}
+
+.control label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
+    color: #142020;
+    /* text-transform: uppercase; */
+    font-weight: bold;
+}
+
+.control input {
+    display: block;
+    width: 100%;
+    max-width: 15rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    background-color: #f3f3f3;
+    color: #142020;
+}
+
+.control .input-error {
+    display: block;
+    width: 100%;
+    max-width: 15rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    background-color: #feeeee;
+    border-color: #f05355;
+    color: #f05355;
+}
+
+.control-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 3rem;
+    margin-top: 25px;
+}
+
+.control #email,
+#password {
+    max-width: 27.5rem;
+}
+
+.control label #terms-and-conditions {
+    max-width: 2rem;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.button {
+    background-color: #ea4b8b;
+    color: #fbdcf0
+}
+
+.button-not-active {
+    background-color: #f8b8d0;
+    color: #fff2fa;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #e9337c;
+    color: #febce7;
+}
+
+.error {
+    color: #fc5151;
+}
+
+/* seeking */
+.seeking-button-color {
+    background-color: #f2f2f2;
+    color: #6a6872;
+    font-weight: 700;
+}
+
+.barand-name-color {
+    color: #d45586;
+    font-weight: 700;
+}
+
+
+.checkbox-round {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 2px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.active-choice {
+    border:3px solid #ea4b8b;
+}
+
+.checkbox-round:checked {
+    background-color: #ea4b8b;
+}
+
+.mail-span-color {
+    color: #e64e8a;
+}
+
+#footer {
+    padding: 5% 3%;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #F2F2F4;
+    color: #000;
+}
+
+#footer .icons a {
+    color: #000 !important;
+}
+
+#footer .icons a .pinterest:hover {
+    color: #d62976;
+}
+
+#footer .icons a .twitter:hover,
+#footer .icons a .facebook:hover {
+    color: #316FF6;
+}
+
+#footer .icons a .github:hover {
+    color: #2ea44f;
+}
+
+#footer i {
+    font-size: 20px;
+}
+
+#footer li,
+p {
+    list-style: none;
+    font-size: smaller;
+}
+
+#footer li {
+    margin: 10px 0;
+}
+
+.footer-icon {
+    margin: 15px 10px;
+}
+
+.icons {
+    display: flex;
+    justify-content: start;
+}
+
+.footer-icon-1 {
+    margin: 15px 10px 15px 0;
+}
+
+@media (max-width:996px) {
+    .control-row {
+        gap: 0;
+        display: block;
+    }
+
+    .control label {
+        font-size: 0.86rem;
+    }
+
+    .control input,
+    .input-error {
+        max-width: 27.5rem;
+    }
+}
